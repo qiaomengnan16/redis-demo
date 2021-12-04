@@ -23,7 +23,7 @@ public class Application {
         new Thread(() -> {
             while (true) {
                 try {
-                    String value = subscriber.sub(listKey);
+                    String value = subscriber.subLua(listKey);
                     if (value != null) {
                         System.out.println(Thread.currentThread().getName() + ", 订阅结果: " + value + ", 时间: " + date());
                     }
