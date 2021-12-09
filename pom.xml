@@ -11,6 +11,7 @@
   <modules>
     <module>redis-queue</module>
     <module>redis-delayed-queue</module>
+    <module>redis-hll</module>
   </modules>
 
   <properties>
