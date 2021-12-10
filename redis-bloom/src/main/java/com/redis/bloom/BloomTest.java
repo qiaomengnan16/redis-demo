@@ -39,7 +39,7 @@ public class BloomTest {
     public static void main(String[] args) {
         BloomTest bloom = new BloomTest();
         // 取10万个随机数
-        List<String> users = bloom.randomUsers(50000);
+        List<String> users = bloom.randomUsers(100000);
 
         System.out.println(new HashSet<>(users).size());
 
@@ -51,7 +51,8 @@ public class BloomTest {
         Client client = new Client("localhost", 6379);
         String key = "codehole";
         client.delete(key);
-        //client.createFilter(key, 50000, 0.001);
+        // 设置容量和错误率
+        client.createFilter(key, 50000, 0.001);
         // 开始保存
         for (String user : userTrain) {
             client.add(key, user);
