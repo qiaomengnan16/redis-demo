@@ -13,6 +13,7 @@
     <module>redis-delayed-queue</module>
     <module>redis-hll</module>
     <module>redis-bloom</module>
+    <module>redis-cell</module>
   </modules>
 
   <properties>
@@ -34,6 +35,12 @@
       <groupId>com.redislabs</groupId>
       <artifactId>jrebloom</artifactId>
       <version>2.2.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>io.lettuce</groupId>
+      <artifactId>lettuce-core</artifactId>
+      <version>5.3.4.RELEASE</version>
     </dependency>
 
 
