@@ -14,6 +14,7 @@
     <module>redis-hll</module>
     <module>redis-bloom</module>
     <module>redis-cell</module>
+    <module>redis-pub-sub</module>
   </modules>
 
   <properties>
