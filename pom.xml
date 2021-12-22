@@ -17,6 +17,7 @@
     <module>redis-pub-sub</module>
     <module>redis-pipeline</module>
     <module>redis-watch</module>
+    <module>redis-zip-struct</module>
   </modules>
 
   <properties>
