@@ -16,6 +16,7 @@
     <module>redis-cell</module>
     <module>redis-pub-sub</module>
     <module>redis-pipeline</module>
+    <module>redis-watch</module>
   </modules>
 
   <properties>
