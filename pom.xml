@@ -18,6 +18,8 @@
     <module>redis-pipeline</module>
     <module>redis-watch</module>
     <module>redis-zip-struct</module>
+    <module>redis-sentinel</module>
+    <module>redis-jedis-pool</module>
   </modules>
 
   <properties>
